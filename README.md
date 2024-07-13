@@ -37,6 +37,19 @@ Twisent is a Python application that performs real-time sentiment analysis on li
     ```bash
     python -c "import nltk; nltk.download('vader_lexicon')"
     ```
+    ## Requirements
+
+- tweepy
+- textblob
+- matplotlib
+- pandas
+- nltk
+
+You can install these packages using:
+
+```bash
+pip install tweepy textblob matplotlib pandas nltk
+```
 
 ## Usage
 
@@ -57,19 +70,7 @@ Twisent is a Python application that performs real-time sentiment analysis on li
 
 3. The live graph displaying sentiment analysis will appear, and the tweet data along with sentiment scores will be saved to `tweet_sentiments.csv`.
 
-## Requirements
 
-- tweepy
-- textblob
-- matplotlib
-- pandas
-- nltk
-
-You can install these packages using:
-
-```bash
-pip install tweepy textblob matplotlib pandas nltk
-```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
