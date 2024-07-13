@@ -15,7 +15,7 @@ Twisent is a Python application that performs real-time sentiment analysis on li
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/Twisent.git
+    git clone https://github.com/goonzchief/Twisent.git
     cd Twisent
     ```
 
